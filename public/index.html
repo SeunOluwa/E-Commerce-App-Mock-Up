@@ -7,30 +7,52 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        <div>
-            <nav>
-                <h1><a href="./index.html">SeunOluwa's Store</a></h1>
+    <div class="sm:container sm:mx-auto sm:px-4">
+        <div><!-- start nav -->
+            <nav class="sm:text-center">
+                <div class="flex justify-between items-center">
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-100">
+                        <a href="./index.html" class="hover:text-gray-700">SeunOluwa's Store</a>
+                    </h1>
+                    <div class="px-4 cursor-pointer md:hidden" id="burger">
+                        <svg class="w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" 
+                        xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" 
+                        stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </div>
+                </div>
                 <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                    <li><a href="./register.html">Register</a></li>
-                    <li><a href="./login.html">Log In</a></li>
+                    <li class="font-bold p-1">
+                        <a href="./index.html" class="p-1 border-b border-gray-300">Home</a>
+                    </li>
+                    <li class="font-bold p-1">
+                        <a href="./about.html" class="p-1 border-b border-gray-300">About</a>
+                    </li>
+                    <li class="font-bold p-1">
+                        <a href="./contact.html" class="p-1 border-b border-gray-300">Contact</a>
+                    </li>
+                    <li class="font-bold p-1">
+                        <a href="./register.html" class="p-1 border-b border-gray-300">Register</a>
+                    </li>
+                    <li class="font-bold p-1">
+                        <a href="./login.html">Log In</a>
+                    </li>
                 </ul>
             </nav>
-        </div>
-        <div>
-            <h4>Products</h4>
+        </div><!-- end nav -->
+        <div class="bg-gray-100">
+            <h4>Electronics</h4>
             <div>
                 <div>
-                    <a href="./product.html"><img src="./images/Cofee.png" alt="coffee"></a>
+                    <a href="./product.html">
+                        <img src="./images/apple macbook pro.jpg" alt="apple macbook pro">
+                    </a>
                     <div>
-                        <span>Coffee</span>
-                        <p>This is a brown coffee.</p>
+                        <span>MacBook Pro</span>
+                        <p>Apple MacBook Pro with Apple M1 Chip - 13" - 8GB RAM - 
+                        512GB SSD Storage - Space Gray</p>
                     </div>
                     <div>
-                        <span>#1,500</span>
+                        <span>₦900,000</span>
                         <a href="./product.html"><button>Proceed to purchase</button></a>
                     </div>
                 </div>
