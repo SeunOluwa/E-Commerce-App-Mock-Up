@@ -6,7 +6,7 @@
     <title>SeunOluwa's Store</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="text-gray-600">
     <div class="sm:container sm:mx-auto sm:px-4">
         <div><!-- start nav -->
             <nav class="sm:text-center">
@@ -39,21 +39,145 @@
                 </ul>
             </nav>
         </div><!-- end nav -->
-        <div class="bg-gray-100">
-            <h4>Electronics</h4>
-            <div>
-                <div>
+        <div class="px-16 py-6 bg-gray-100">
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Electronics</h4>
+            <div class="mt-8 grid gap-10">
+                <!-- cards go here -->
+                <div class="card hover:shadow-lg">
                     <a href="./product.html">
-                        <img src="./images/apple macbook pro.jpg" alt="apple macbook pro">
+                        <img 
+                            src="./images/apple macbook pro.jpg" 
+                            alt="apple macbook pro"
+                            class="w-full h-32 sm:h-48 object-cover"
+                        >
                     </a>
-                    <div>
-                        <span>MacBook Pro</span>
-                        <p>Apple MacBook Pro with Apple M1 Chip - 13" - 8GB RAM - 
-                        512GB SSD Storage - Space Gray</p>
+                    <div class="m-4 border-b border-gray-300 pb-2">
+                        <span class="font-bold">MacBook Pro</span>
+                        <span class="block text-gray-500">Apple MacBook Pro with Apple M1 
+                        Chip - 13" - 8GB RAM - 512GB SSD Storage - Space Gray</span>
                     </div>
-                    <div>
-                        <span>₦900,000</span>
-                        <a href="./product.html"><button>Proceed to purchase</button></a>
+                    <div class="m-4">
+                        <span class="font-bold">₦900,000</span>
+                        <div class="m-4 flex justify-center">
+                            <button class="btn text-primary border-primary border-2 hover:bg-primary 
+                            hover:text-white transition ease-in-out duration-500">
+                                <a href="./product.html">Proceed to purchase</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card hover:shadow-lg">
+                    <a href="./product.html">
+                        <img 
+                            src="./images/apple ipad.jpg" 
+                            alt="apple ipad"
+                            class="w-full h-32 sm:h-48 object-cover"
+                        >
+                    </a>
+                    <div class="m-4 border-b border-gray-300 pb-2">
+                        <span class="font-bold">iOS Tablet</span>
+                        <span class="block text-gray-500">Apple iPad Air - 4th Gen - 10.9" - 256GB 
+                        ROM - WiFi Only - Space Grey</span>
+                    </div>
+                    <div class="m-4">
+                        <span class="font-bold">₦470,000</span>
+                        <div class="m-4 flex justify-center">
+                            <button class="btn text-primary border-primary border-2 hover:bg-primary 
+                            hover:text-white transition ease-in-out duration-500">
+                                <a href="./product.html">Proceed to purchase</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card hover:shadow-lg">
+                    <a href="./product.html">
+                        <img 
+                            src="./images/ps4.jpg" 
+                            alt="ps4 console"
+                            class="w-full h-32 sm:h-48 object-cover"
+                        >
+                    </a>
+                    <div class="m-4 border-b border-gray-300 pb-2">
+                        <span class="font-bold">PS4 Console</span>
+                        <span class="block text-gray-500">Sony Ps4 500GB Console + Extra Ps4 Wireless 
+                        Controller</span>
+                    </div>
+                    <div class="m-4">
+                        <span class="font-bold">₦165,500</span>
+                        <div class="m-4 flex justify-center">
+                            <button class="btn text-primary border-primary border-2 hover:bg-primary 
+                            hover:text-white transition ease-in-out duration-500">
+                                <a href="./product.html">Proceed to purchase</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card hover:shadow-lg">
+                    <a href="./product.html">
+                        <img 
+                            src="./images/apple macbook pro 2.jpg" 
+                            alt="apple macbook pro"
+                            class="w-full h-32 sm:h-48 object-cover"
+                        >
+                    </a>
+                    <div class="m-4 border-b border-gray-300 pb-2">
+                        <span class="font-bold">MacBook Pro</span>
+                        <span class="block text-gray-500">Apple Macbook Pro 15 Inch Core I9 16gb Ram 1tb 
+                        Ssd</span>
+                    </div>
+                    <div class="m-4">
+                        <span class="font-bold">₦2,000,000</span>
+                        <div class="m-4 flex justify-center">
+                            <button class="btn text-primary border-primary border-2 hover:bg-primary 
+                            hover:text-white transition ease-in-out duration-500">
+                                <a href="./product.html">Proceed to purchase</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card hover:shadow-lg">
+                    <a href="./product.html">
+                        <img 
+                            src="./images/ps5.jpg" 
+                            alt="ps5 console"
+                            class="w-full h-32 sm:h-48 object-cover"
+                        >
+                    </a>
+                    <div class="m-4 border-b border-gray-300 pb-2">
+                        <span class="font-bold">PS5 Console</span>
+                        <span class="block text-gray-500">Sony Playstation 5 Standard Edition</span>
+                    </div>
+                    <div class="m-4">
+                        <span class="font-bold">₦500,000</span>
+                        <div class="m-4 flex justify-center">
+                            <button class="btn text-primary border-primary border-2 hover:bg-primary 
+                            hover:text-white transition ease-in-out duration-500">
+                                <a href="./product.html">Proceed to purchase</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card hover:shadow-lg">
+                    <a href="./product.html">
+                        <img 
+                            src="./images/apple iphone.jpg" 
+                            alt="apple iphone"
+                            class="w-full h-32 sm:h-48 object-cover"
+                        >
+                    </a>
+                    <div class="m-4 border-b border-gray-300 pb-2">
+                        <span class="font-bold">iOS Phone</span>
+                        <span class="block text-gray-500">Apple iPhone 13 Pro Max - 256GB ROM - 6GB 
+                        RAM - 5g - Graphite</span>
+                    </div>
+                    <div class="m-4">
+                        <span class="font-bold">₦1,100,000</span>
+                        <div class="m-4 flex justify-center">
+                            <button class="btn text-primary border-primary border-2 hover:bg-primary 
+                            hover:text-white transition ease-in-out duration-500">
+                                <a href="./product.html">Proceed to purchase</a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
