@@ -32808,6 +32808,17 @@ video {
   letter-spacing: 0.05em;
 }
 
+.btn2 {
+  cursor: pointer;
+  border-radius: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

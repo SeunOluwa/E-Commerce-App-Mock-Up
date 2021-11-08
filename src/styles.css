@@ -9,3 +9,7 @@
 .btn {
     @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
 }
+
+.btn2 {
+    @apply rounded py-2 px-3 font-bold cursor-pointer tracking-wider;
+}
