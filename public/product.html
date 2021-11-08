@@ -6,20 +6,63 @@
     <title>Product</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="text-gray-600">
+
     <div>
-        <div>
-            <nav>
-                <h1><a href="./index.html">SeunOluwa's Store</a></h1>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                    <li><a href="./register.html">Register</a></li>
-                    <li><a href="./login.html">Log In</a></li>
+        <div class="bg-red-300 text-gray-50"><!-- start nav -->
+            <nav class="text-center lg:flex lg:justify-between">
+                <div class="flex justify-between items-center">
+                    <h1 class="font-bold uppercase p-4 lg:text-xl">
+                        <a href="./index.html" class="flex items-center hover:text-gray-100">
+                            <span>SeunOluwa's Store</span>
+                            <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" 
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" 
+                            stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 
+                            13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 
+                            2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        </a>
+                    </h1>
+                    <div class="px-4 cursor-pointer lg:hidden" id="burger">
+                        <svg class="w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" 
+                        xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" 
+                        stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </div>
+                </div>
+
+                <ul class="pb-1 text-lg lg:text-xl hidden lg:flex lg:items-center lg:p-2" id="menu">
+                    <li class="p-2 lg:mr-32">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="p-2 lg:mr-32">
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li class="p-2 lg:mr-32">
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                    <div class="flex justify-center">
+                        <li class="p-2 m-2 lg:mr-28">
+                            <a 
+                                href="./login.html" 
+                                class="btn2 border-gray-50 border-2 lg:border-none lg:font-normal 
+                                hover:bg-gray-50 hover:text-gray-500"
+                            >
+                                Log In
+                            </a>
+                        </li>
+                        <li class="p-2 m-2 lg:mr-0">
+                            <a 
+                                href="./signup.html" 
+                                class="btn2 border-gray-50 border-2 lg:border-none lg:font-normal 
+                                hover:bg-gray-50 hover:text-gray-500"
+                            >
+                                Sign Up
+                            </a>
+                        </li>
+                    </div>
                 </ul>
             </nav>
-        </div>
+        </div><!-- end nav -->
+
         <div>
             <div>
                 <h4>MacBook Pro</h4>
@@ -36,6 +79,16 @@
                 </div>
             </div>
         </div>
+
+        <footer class="bg-black">
+            <div class="flex justify-center m-0 p-6">
+                <p class="text-gray-400 md:text-lg">
+                    Copyright © 2021 DevSeunOluwa.
+                </p>
+            </div>
+        </footer>
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
