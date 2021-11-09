@@ -6,6 +6,10 @@
     @apply bg-white rounded overflow-hidden shadow-md relative;
 }
 
+.card2 {
+    @apply bg-white overflow-hidden relative;
+}
+
 .btn {
     @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
 }
